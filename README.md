@@ -8,13 +8,15 @@ the instantiation process), structure (how classes and objects are composed to f
 larger structures) and behavioral patterns (the assignment of responsibilities between 
 objects).  
 
-#### Creational Patterns 
+#### Creational Patterns
+Creational patterns provides essential information regarding the Class instantiation or the object instantiation. Class Creational Pattern and the Object Creational pattern is the major categorization of the Creational Design Patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
 - [Abstract Factory], families of product objects
 - [Builder], how a composite object gets created
 - [Factory Method], subclass of object that is instantiated
 - [Prototype], class of object that is instantiated
 - [Singleton], the sole instance of a class 
 #### Structural Patterns
+Structural design patterns are about organizing different classes and objects to form larger structures and provide new functionality while keeping these structures flexible and efficient. Mostly they use Inheritance to compose all the interfaces. It also identifies the relationships which led to the simplification of the structure.
 - [Adapter], interface to an object
 - [Bridge], implementation of an object 
 - [Composite], structure and composition of an object
@@ -23,6 +25,7 @@ objects).
 - [Flyweight], storage costs of objects
 - [Proxy], how an object is accessed (its location)
 #### Behavioral Patterns
+Behavioral patterns are all about identifying the common communication patterns between objects and realize these patterns. These patterns are concerned with algorithms and the assignment of responsibilities between objects.
 - [Chain of Responsibility], object that can fulfill a request
 - [Command], when and how a request is fulfilled
 - [Interpreter], grammar and interpretation of a language
