@@ -57,7 +57,6 @@ class Invoker:
 if __name__ == "__main__":
   receiver = Receiver()
   command = ConcreteCommand(receiver)
-
   invoker = Invoker()
   invoker.set(command)
   invoker.confirm()

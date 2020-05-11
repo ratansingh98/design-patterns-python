@@ -1,7 +1,7 @@
 ## Command
 
 Command pattern encapsulates a request as an object, thereby letting you parameterize
-clients with different requests, queue or log requests, and supports undoable
+clients with different requests, queue or log requests, and supports un-doable
 operations. The pattern has a behavioral purpose and deals with relationships between objects. 
 
 ### When to use
